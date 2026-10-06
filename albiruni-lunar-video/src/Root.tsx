@@ -21,7 +21,7 @@ export const RemotionRoot: React.FC = () => {
       <Composition
         id="DiagramaLunarDeAlBiruni"
         component={LunarExplainer}
-        durationInFrames={780}
+        durationInFrames={1665}
         fps={30}
         width={1920}
         height={1080}

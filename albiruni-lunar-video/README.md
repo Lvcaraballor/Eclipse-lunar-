@@ -1,6 +1,6 @@
 # El diagrama lunar de al-Biruni
 
-Video explicativo en Remotion sobre el diagrama lunar atribuido a Abu Rayhan al-Biruni. La composición principal dura 26 segundos, está en formato 16:9 y recorre cinco escenas: apertura, contexto histórico, esquema orbital, fases lunares y fuente.
+Video explicativo en Remotion sobre el diagrama lunar atribuido a Abu Rayhan al-Biruni. La composición principal dura 55,5 segundos, está en formato horizontal 16:9 (1920×1080) y recorre cinco escenas: apertura, contexto histórico, esquema orbital, fases lunares y fuente. Incluye la locución de `public/locucion1.mp3`.
 
 El esquema orbital es una visualización explicativa, no una reconstrucción del manuscrito ni un modelo a escala.
 

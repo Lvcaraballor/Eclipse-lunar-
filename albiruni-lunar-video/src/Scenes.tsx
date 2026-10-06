@@ -367,7 +367,7 @@ const OrbitalMoon = ({
 
 export const OrbitalScene = () => {
   const frame = useCurrentFrame();
-  const activePhase = Math.min(3, Math.floor(frame / 45));
+  const activePhase = Math.min(3, Math.floor(frame / 83));
   return (
     <Page>
       <div style={{ position: "absolute", top: 78, left: 112, zIndex: 8 }}>
@@ -408,7 +408,7 @@ export const OrbitalScene = () => {
 
 export const PhasesScene = () => {
   const frame = useCurrentFrame();
-  const activePhase = Math.min(3, Math.floor(frame / 37.5));
+  const activePhase = Math.min(3, Math.floor(frame / 83));
   const phases: { name: string; phase: MoonPhase }[] = [
     { name: "Nueva", phase: "new" },
     { name: "Creciente", phase: "quarter" },
