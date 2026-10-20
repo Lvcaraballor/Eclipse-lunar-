@@ -1,12 +1,12 @@
 import { Audio } from "@remotion/media";
 import { Series, staticFile, useVideoConfig } from "remotion";
 import {
-  ClosingScene,
-  ContextScene,
-  OpeningScene,
-  OrbitalScene,
-  PhasesScene,
-} from "./Scenes";
+  ManuscriptClosing,
+  ManuscriptContext,
+  ManuscriptOpening,
+  ManuscriptOrbital,
+  ManuscriptPhases,
+} from "./ManuscriptScenes";
 
 export const LunarExplainer: React.FC = () => {
   const { fps } = useVideoConfig();
@@ -19,20 +19,20 @@ export const LunarExplainer: React.FC = () => {
         premountFor={fps}
       />
       <Series>
-        <Series.Sequence name="Apertura" durationInFrames={333} premountFor={fps}>
-          <OpeningScene />
+        <Series.Sequence name="Apertura · manuscrito" durationInFrames={333} premountFor={fps}>
+          <ManuscriptOpening />
         </Series.Sequence>
-        <Series.Sequence name="Al-Biruni" durationInFrames={333} premountFor={fps}>
-          <ContextScene />
+        <Series.Sequence name="Al-Biruni · contexto" durationInFrames={333} premountFor={fps}>
+          <ManuscriptContext />
         </Series.Sequence>
         <Series.Sequence name="El esquema orbital" durationInFrames={333} premountFor={fps}>
-          <OrbitalScene />
+          <ManuscriptOrbital />
         </Series.Sequence>
         <Series.Sequence name="Las fases" durationInFrames={333} premountFor={fps}>
-          <PhasesScene />
+          <ManuscriptPhases />
         </Series.Sequence>
         <Series.Sequence name="Idea y fuente" durationInFrames={333} premountFor={fps}>
-          <ClosingScene />
+          <ManuscriptClosing />
         </Series.Sequence>
       </Series>
     </>
